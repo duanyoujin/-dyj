@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    img1: 'http://qcloud.dpfile.com/pc/AcYpIZlIgoIy-k9lVv9KxqkQwo8xm0ShfltGIdiDdQlU9slrsejo5zHJIueJv84QTYGVDmosZWTLal1WbWRW3A.jpg'
   },
 
   /**

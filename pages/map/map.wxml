@@ -1,2 +1,12 @@
-<!--pages/map/map.wxml-->
-<text>pages/map/map.wxml</text>
+<view class="map">
+  <view class="m-nav">
+  <view class="m-img"><image src="{{img2}}"></image></view>
+  <view class="m-jian">日志版</view>
+  <view class="m-jian1">纪录技术;技巧;常识;经验类文章</view>
+  </view>
+  <view class="m-nav">
+  <view class="m-img"><image src="{{img1}}"></image></view>
+        <view class="m-jian">微店+</view>
+        <view class="m-jian1">这里有你常逛的微店</view>
+  </view>
+</view>
