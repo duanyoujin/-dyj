@@ -23,15 +23,15 @@
       </view>
       <view class="h-jiu">
           <view class="h-jiu1">
-            <view><image src="../img/123.jpg"></image></view>
+            <view><image src="../../img/123.jpg"></image></view>
             <view>生成海报</view>
           </view>
           <view class="h-jiu1">
-            <view><image src="../img/223.jpg"></image></view>
+            <view><image src="../../img/223.jpg"></image></view>
             <view>保存电话</view>
           </view>
           <view class="h-jiu1">
-            <view><image src="../img/323.jpg"></image></view>
+            <view><image src="../../img/323.jpg"></image></view>
             <view>分享好友</view>
           </view>
       </view>

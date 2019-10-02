@@ -1,8 +1,10 @@
 {
   "pages": [
+    "pages/home/home",
+    "pages/nav1/nav1",
+    "pages/nav/nav",
     "pages/map/map",
     "pages/init/init",
-    "pages/home/home",
     "pages/index/index",
     "pages/logs/logs",
     "pages/ent/ent",
