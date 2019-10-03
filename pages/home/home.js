@@ -1,6 +1,33 @@
 // pages/init/init.js
 Page({
+  phoneCall: function (e) {
 
+    wx.makePhoneCall({
+
+      phoneNumber: e.currentTarget.dataset.replyPhone,
+
+      success: function () {
+
+        console.log("成功拨打电话")
+
+      },
+
+    })
+
+  },
+  //复制
+  textPaste() {
+      wx.showToast({
+        title: '复制成功',
+      })
+  },
+  //
+  add: function () {
+    wx.addPhoneContact({
+      firstName: '段有金',
+      mobilePhoneNumber: this.data.op
+    })
+  },
   /**
    * 页面的初始数据
    */

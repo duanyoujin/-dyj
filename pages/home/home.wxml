@@ -8,17 +8,17 @@
         <view class="h-in1">
             <view>手机</view>
             <view>17835373234</view>
-            <view><button>拨打</button> </view>
+            <view><button bindtap="phoneCall" data-reply-phone="17835373234" >拨打</button> </view>
         </view>
         <view class="h-in1" >
             <view>邮箱</view>
             <view>2506782852@qq.com</view>
-            <view><button>复制</button></view>
+            <view><button bindtap=" textPaste">复制</button></view>
         </view>
         <view class="h-in1">
             <view>职业</view>
             <view>web前端开发工程师</view>
-            <view><button>复制</button></view>
+            <view><button bindtap="add">复制</button></view>
         </view>
       </view>
       <view class="h-jiu">

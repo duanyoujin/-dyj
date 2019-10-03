@@ -1,6 +1,15 @@
 // pages/map/map.js
 Page({
-
+  tiaoA:function(){
+      wx.navigateTo({
+        url:'../nav/nav'
+      })
+  },
+  tiaoB:function(){
+    wx.navigateTo({
+      url: '../nav1/nav1',
+    })
+  },
   /**
    * 页面的初始数据
    */
@@ -24,7 +33,7 @@ Page({
   },
 
   /**
-   * 生命周期函数--监听页面显示
+   * 生命周期函数--监听 页面显示
    */
   onShow: function () {
 
